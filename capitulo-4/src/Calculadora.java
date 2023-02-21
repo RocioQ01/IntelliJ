@@ -1,0 +1,15 @@
+public class Calculadora {
+    double calcularAreaCirculo(double radio){
+        return Math.PI * radio * radio;
+    }
+
+    double calcularVolumenPrismaRectangular(double altura, double anchura, double profundidad){
+        return altura * anchura * profundidad;
+    }
+
+    double calcularMedia(double ... numeros){
+        if(numeros.length == 0){
+            return 0.0;
+        }
+    }
+}
